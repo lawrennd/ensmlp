@@ -1,0 +1,6 @@
+# These are files that should be packaged for the NKFD software
+dir: html
+~/mlprojects/ensmlp/html/index.html
+dir: .
+~/mlprojects/ensmlp/matlab/hmcsunspot.sh
+~/mlprojects/ensmlp/matlab/tecator.mat
