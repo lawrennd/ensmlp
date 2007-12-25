@@ -1,7 +1,15 @@
 function  [net] = init_R(net)
-%INIT_R       initialises the smoothing distributions
-%             simply put the values of the R distributions to be the same as
-%             the Q ones
+% INIT_R initialises the smoothing distributions
+% FORMAT
+% DESC simply puts the values of the R distributions to be the same as
+% the Q ones.
+% ARG net : the network to initialise.
+% RETURN net : the initialised network.
+%
+% COPYRIGHT : Mehdi Azzouzi, 1998, 1999
+%
+
+% ENSMLP
 
 tnin = net.nin + 1;
 nw1 = net.nhidden*(tnin);

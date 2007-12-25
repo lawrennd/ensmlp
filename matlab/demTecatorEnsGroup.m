@@ -1,4 +1,4 @@
-% DEMTECATORENSARD Demonstrate Ensemble with group prior on Tecator data set.
+% DEMTECATORENSGROUP Demonstrate Ensemble with group prior on Tecator data set.
 
 % ENSMLP
 

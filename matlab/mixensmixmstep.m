@@ -1,6 +1,6 @@
 function [net] = mixensmixmstep(net, x, t)
 
-% MIXENSMIXMSTEPING re-estimate the mixing coefficients of the mixture.
+% MIXENSMIXMSTEP re-estimate the mixing coefficients of the mixture.
 % FORMAT               
 % DESC performs a re-estimation step of the mixing coefficients.
 % ARG net : the network for which reestimation is to be performed.                

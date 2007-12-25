@@ -1,6 +1,6 @@
 function net = mmi_Runpak(net, w)
 
-% MMI_RPAK Place parameters of smoothing distribution in a network.
+% MMI_RUNPAK Place parameters of smoothing distribution in a network.
 % FORMAT
 % DESC extracts the parameters of the smoothing distributions from the
 % network in preparation for optimisation.

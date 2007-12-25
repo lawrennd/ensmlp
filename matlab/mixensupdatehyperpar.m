@@ -1,17 +1,18 @@
 function net = mixensupdatehyperpar(net, x, t)
 
-%MIXENSUPDATEHYPERPAR Re-estimate parameters of the hyper posteriors.
+% MIXENSUPDATEHYPERPAR Re-estimate parameters of the hyper posteriors.
+% FORMAT
+% DESC re-estimates the hyperparameters ALPHA and BETA. 
+% ARG net : the network to estimate the hyperparameters for.
+% ARG x : input data locations.
+% ARG t : target data locations.
+% RETURN net : the network with updated hyperparameters.
 %
-%	Description
-%	NET = ENSUPDATEHYPERPAR(NET, X, T) re-estimates the hyperparameters
-%	ALPHA and BETA. PRIORS is a vector of the hyperpriors parameters, a,
-%       b, c, and d.
+% SEEALSO : MIXENSHYPERPRIOR, MIXENSGRAD, MIXENSERR
 %
-%	See also
-%	ENSHYPERPRIOR, ENSGRAD, ENSERR, DEMENS1
-%
-
-%	Copyright (c) Neil D Lawrence, Mehdi Azzouzi (1999)
+% COPYRIGHT : Neil D Lawrence and Mehdi Azzouzi, 1999
+  
+% ENSMLP
 
 
 a_alpha = net.ens(1).alphaprior.a;

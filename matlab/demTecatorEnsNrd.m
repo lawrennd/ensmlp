@@ -1,4 +1,4 @@
-% DEMTECATORENSARD Demonstrate Ensemble with NRD on Tecator data set.
+% DEMTECATORENSNRD Demonstrate Ensemble with NRD on Tecator data set.
 
 % ENSMLP
 
