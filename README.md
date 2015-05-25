@@ -7,8 +7,6 @@ networks software (ENSMLP). The software includes variational
 approximations that are Gaussian and mixtures of Gaussians used to
 approximate neural network posterior distributions.
 
-The ENSMLP software can be downloaded
-[here](http://ml.sheffield.ac.uk/~neil/cgi-bin/software/downloadForm.cgi?toolbox=ensmlp).
 
 Release Information
 -------------------
