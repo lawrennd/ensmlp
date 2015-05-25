@@ -51,22 +51,3 @@ also that the scripts each take a few hours to run. Finally the
 Finally there is a Gaussian process demo, `demTecatorGpRbfArd` that you
 will need to download my [GP toolbox](../gp/) to run.
 
-Page updated on Tue Dec 25 00:45:31 2007
-
-|
-[Disclaimer](http://www.manchester.ac.uk/aboutus/documents/disclaimer/ "Disclaimer")
-|
-[Privacy](http://www.manchester.ac.uk/aboutus/documents/privacy/ "Privacy")
-| [Copyright
-notice](http://www.manchester.ac.uk/aboutus/documents/copyright/ "Copyright Notice")
-|
-[Accessibility](http://www.manchester.ac.uk/aboutus/documents/accessibility/ "Accessibility")
-| [Freedom of
-information](http://www.manchester.ac.uk/aboutus/documents/foi/ "Freedom of information")
-|
-[Feedback](http://www.manchester.ac.uk/aboutus/contact/feedback/ "Feedback")
-|
-
-Please contact
-[webmaster.cs@manchester.ac.uk](mailto:webmaster.cs@manchester.ac.uk)
-with comments and suggestions
