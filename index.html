@@ -29,9 +29,39 @@
       </header>
       <section>
         <h1>
-<a id="ensmlp" class="anchor" href="#ensmlp" aria-hidden="true"><span class="octicon octicon-link"></span></a>ensmlp</h1>
+<a id="variational-learning-in-neural-networks" class="anchor" href="#variational-learning-in-neural-networks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Variational Learning in Neural Networks</h1>
 
-<p>MATLAB Code for Variational Learning of Neural Networks</p>
+<p>This page describes examples of how to use ensemble learning in neural
+networks software (ENSMLP). The software includes variational
+approximations that are Gaussian and mixtures of Gaussians used to
+approximate neural network posterior distributions. RELEASEINFORMATION</p>
+
+<p>First release in response to a request for the code. Code was written in
+1998-1999 but is being released for first time in 2007. The code is
+heavily based on the NETLAB toolbox, to such an extent that copyright
+from NETLAB probably applies to large portions of this software. Please
+see GPL licenses on that software for details of the implications of
+this.</p>
+
+<h2>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<h3>
+<a id="tecator-data" class="anchor" href="#tecator-data" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tecator Data</h3>
+
+<p>The ensemble learning is demonstrated with a series of examples on the
+<a href="http://lib.stat.cmu.edu/datasets/tecator">'Tecator'</a> data of Thodberg.</p>
+
+<p>There are several different configurations of the models to run on the
+Tecator data, all start with '<code>dem</code>'. I've put together this code
+release over a couple of days, and haven't managed to recreate exactly
+the results on this data we quote in our original tech report. Be aware
+also that the scripts each take a few hours to run. Finally the
+<code>demTecatorMixEns...</code> scripts can only be run once the corresponding
+<code>demTecatorEns...</code> script has been run.</p>
+
+<p>Finally there is a Gaussian process demo, <code>demTecatorGpRbfArd</code> that you
+will need to download my <a href="../gp/">GP toolbox</a> to run.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/lawrennd">lawrennd</a></p>
