@@ -47,5 +47,5 @@ also that the scripts each take a few hours to run. Finally the
 `demTecatorEns...` script has been run.
 
 Finally there is a Gaussian process demo, `demTecatorGpRbfArd` that you
-will need to download my [GP toolbox](../gp/) to run.
+will need to download my [GP toolbox](http://github.com/lawrennd/gp) to run.
 
